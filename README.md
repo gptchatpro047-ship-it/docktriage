@@ -23,15 +23,15 @@ The goal is not to hide Docker. It is to help users understand what Docker is re
 
 ## Build Week MVP
 
-- [ ] System CPU and memory dashboard
-- [ ] Docker container list with status and health
-- [ ] Start, stop, restart, and kill controls
-- [ ] Live log viewer
-- [ ] GPT-5.6-powered log analysis
-- [ ] Human approval before every container-changing action
-- [ ] Automated tests and a reproducible demo container
+- [x] System CPU and memory dashboard
+- [x] Docker container list with status and health
+- [x] Start, stop, and kill controls
+- [x] Live log viewer
+- [x] GPT-5.6-powered log analysis
+- [x] Human approval before every container-changing action
+- [x] Automated parser tests
 
-> **Current status:** Build Week prototype under active development.
+> **Current status:** Functional Build Week MVP. Linux smoke testing is the remaining release gate.
 
 ## Built with Codex and GPT-5.6
 
