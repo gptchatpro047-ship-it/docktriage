@@ -1,0 +1,17 @@
+name: docktriage
+description: AI-powered Docker troubleshooting TUI built for OpenAI Build Week.
+version: 0.1.0
+repository: https://github.com/gptchatpro047-ship-it/docktriage
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  nocterm: ^0.8.0
+
+dev_dependencies:
+  lints: ^5.1.1
+  test: ^1.25.15
+
+executables:
+  docktriage: docktriage
